@@ -1,0 +1,16 @@
+POST http://127.0.0.1:9001/login
+Content-Type: application/json
+{ "username" :"Danilo","password":"Pass1234!"}
+
+###
+
+POST http://127.0.0.1:9001/signup
+Content-Type: application/json
+{"username":"Jhon","password":"1234","email":"jhondanilo3@gmail.com"}
+
+###
+GET  http://127.0.0.1:9001/test_token
+Content-Type: application/json
+
+{}
+
